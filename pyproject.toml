@@ -1,0 +1,31 @@
+[project]
+name = "shopeagle"
+version = "1.0.0"
+description = "E-commerce app with a multi-agent AI support desk (AutoGen, hybrid RAG, human approval)"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+ignore = ["B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501", "E401", "E402", "E702", "E701", "I001"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["."]
+omit = ["tests/*", "app.py", "ui/*", "evaluation/run_eval.py"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+check_untyped_defs = true
+files = ["rag", "tickets.py", "parsing.py", "workflow_trace.py", "auth.py", "store.py", "config.py", "db.py"]

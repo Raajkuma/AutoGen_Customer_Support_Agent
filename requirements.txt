@@ -1,0 +1,6 @@
+autogen-agentchat>=0.4.9,<0.8
+autogen-ext[openai]>=0.4.9,<0.8
+streamlit>=1.40,<2
+numpy>=1.26
+pandas>=2.0
+python-dotenv>=1.0

@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports: ["8501:8501"]
+    env_file: .env
+    environment:
+      # reach Docker Model Runner from inside the container
+      LLM_BASE_URL: http://model-runner.docker.internal/engines/v1
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs

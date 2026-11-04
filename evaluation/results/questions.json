@@ -1,0 +1,425 @@
+{
+  "mode": "bm25-only",
+  "retrieval": {
+    "n": 23,
+    "k": 3,
+    "recall@k": 1.0,
+    "mrr": 0.95,
+    "match_decision_accuracy": 1.0,
+    "escalation": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "rows": [
+      {
+        "id": "q01",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "shipping_policy.md#shipping-charges",
+          "shipping_policy.md#delayed-orders",
+          "shipping_policy.md#lost-or-undelivered-packages"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 0.5,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q02",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "refund_policy.md#refund-timeline",
+          "refund_policy.md#how-to-return-an-item",
+          "refund_policy.md#return-window"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 0.5,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q03",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "account_and_login.md#reset-your-password",
+          "account_and_login.md#locked-account"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q04",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "refund_policy.md#replacements",
+          "product_faq.md#damaged-or-defective-products",
+          "shipping_policy.md#lost-or-undelivered-packages"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q05",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#payments-and-billing"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "High urgency",
+            "Angry customer",
+            "Legal / fraud / payment-dispute language"
+          ]
+        }
+      },
+      {
+        "id": "q06",
+        "lang": "en",
+        "matched": false,
+        "gold_match": false,
+        "retrieved": [],
+        "mode": "bm25-only (no dense index)",
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "No matching knowledge-base document"
+          ]
+        }
+      },
+      {
+        "id": "q07",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "shipping_policy.md#delivery-timelines"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q08",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "shipping_policy.md#shipping-charges"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q09",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "shipping_policy.md#lost-or-undelivered-packages"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q10",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "refund_policy.md#refund-timeline",
+          "refund_policy.md#how-to-return-an-item",
+          "refund_policy.md#return-window"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q11",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "account_and_login.md#locked-account",
+          "account_and_login.md#change-email-or-phone-number"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q12",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "account_and_login.md#change-email-or-phone-number",
+          "account_and_login.md#reset-your-password"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q13",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#warranty"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q14",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#order-cancellation"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q15",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#payments-and-billing",
+          "account_and_login.md#locked-account"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q16",
+        "lang": "en",
+        "matched": false,
+        "gold_match": false,
+        "retrieved": [],
+        "mode": "bm25-only (no dense index)",
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "No matching knowledge-base document"
+          ]
+        }
+      },
+      {
+        "id": "q17",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "refund_policy.md#refund-timeline",
+          "refund_policy.md#how-to-return-an-item"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q18",
+        "lang": "en",
+        "matched": false,
+        "gold_match": false,
+        "retrieved": [],
+        "mode": "bm25-only (no dense index)",
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "No matching knowledge-base document"
+          ]
+        }
+      },
+      {
+        "id": "q19",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "account_and_login.md#reset-your-password"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "Angry customer"
+          ]
+        }
+      },
+      {
+        "id": "q20",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "account_and_login.md#delete-your-account"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q21",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "refund_policy.md#how-to-return-an-item"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q22",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#payments-and-billing"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "q23",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#payments-and-billing"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      }
+    ]
+  }
+}

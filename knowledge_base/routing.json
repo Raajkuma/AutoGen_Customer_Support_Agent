@@ -1,0 +1,5 @@
+{"Shipping": ["shipping_policy.md"],
+ "Refund": ["refund_policy.md"],
+ "Account": ["account_and_login.md"],
+ "Product": ["product_faq.md", "refund_policy.md"],
+ "Billing": ["product_faq.md"]}

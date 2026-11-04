@@ -1,0 +1,232 @@
+{
+  "mode": "bm25-only",
+  "retrieval": {
+    "n": 12,
+    "k": 3,
+    "recall@k": 0.7,
+    "mrr": 0.6333333333333333,
+    "match_decision_accuracy": 0.75,
+    "escalation": {
+      "tp": 3,
+      "fp": 2,
+      "fn": 1,
+      "tn": 6,
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1": 0.6666666666666665
+    },
+    "rows": [
+      {
+        "id": "h01",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "shipping_policy.md#delayed-orders"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "h02",
+        "lang": "en",
+        "matched": false,
+        "gold_match": true,
+        "retrieved": [],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 0.0,
+        "rr": 0.0,
+        "escalation": {
+          "predicted": true,
+          "gold": false,
+          "reasons": [
+            "No matching knowledge-base document"
+          ]
+        }
+      },
+      {
+        "id": "h03",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "account_and_login.md#reset-your-password",
+          "account_and_login.md#locked-account"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "h04",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#damaged-or-defective-products",
+          "product_faq.md#warranty",
+          "refund_policy.md#return-window"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "h05",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "product_faq.md#order-cancellation"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 0.0,
+        "rr": 0.0,
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "High urgency",
+            "Angry customer",
+            "Legal / fraud / payment-dispute language"
+          ]
+        }
+      },
+      {
+        "id": "h06",
+        "lang": "en",
+        "matched": false,
+        "gold_match": false,
+        "retrieved": [],
+        "mode": "bm25-only (no dense index)",
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "No matching knowledge-base document"
+          ]
+        }
+      },
+      {
+        "id": "h07",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "shipping_policy.md#delivery-timelines"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "h08",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "refund_policy.md#refund-timeline"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "h09",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "account_and_login.md#change-email-or-phone-number"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 1.0,
+        "escalation": {
+          "predicted": false,
+          "gold": false,
+          "reasons": []
+        }
+      },
+      {
+        "id": "h10",
+        "lang": "en",
+        "matched": true,
+        "gold_match": false,
+        "retrieved": [
+          "product_faq.md#damaged-or-defective-products"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "escalation": {
+          "predicted": false,
+          "gold": true,
+          "reasons": []
+        }
+      },
+      {
+        "id": "h11",
+        "lang": "en",
+        "matched": true,
+        "gold_match": true,
+        "retrieved": [
+          "shipping_policy.md#tracking-your-order",
+          "shipping_policy.md#lost-or-undelivered-packages",
+          "shipping_policy.md#delayed-orders"
+        ],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 1.0,
+        "rr": 0.3333333333333333,
+        "escalation": {
+          "predicted": true,
+          "gold": true,
+          "reasons": [
+            "Angry customer"
+          ]
+        }
+      },
+      {
+        "id": "h12",
+        "lang": "en",
+        "matched": false,
+        "gold_match": true,
+        "retrieved": [],
+        "mode": "bm25-only (no dense index)",
+        "recall@k": 0.0,
+        "rr": 0.0,
+        "escalation": {
+          "predicted": true,
+          "gold": false,
+          "reasons": [
+            "No matching knowledge-base document"
+          ]
+        }
+      }
+    ]
+  }
+}
